@@ -1,4 +1,18 @@
+
 body {
     width: 512px;
     border: 2px dashed black;
+    margin: 0 auto;
 }
+
+.bordabile{
+    border: 2px solid black;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+
+
+ 

@@ -40,9 +40,7 @@ body {
     border-radius: 8px;
     padding: 3px; 
     background: linear-gradient(45deg, #fefefe, #d8b6ff, #8000ff);
-    -webkit-mask: 
-        linear-gradient(#fff 0 0) content-box, 
-        linear-gradient(#fff 0 0);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
 }
@@ -67,12 +65,22 @@ body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-h1 {
-    margin-left: 80px;
+#titolone {
+  font-family: "Cinzel", serif;
+  font-weight: 400px;
+  font-style: normal;
+  font-size: 38px;
+  text-align: center;
+  margin: 20px0;
+  background: linear-gradient(45deg, #fefefe, #d8b6ff, #8000ff);
 }
 
 h2 {
-    margin-bottom: 0;
+   font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 p {

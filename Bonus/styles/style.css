@@ -6,8 +6,11 @@
 
 body {
     width: 512px;
-    border: 2px dashed black;
+    border: 4px solid black;
     margin: 0 auto;
+    border-image: linear-gradient(45deg, #fefefe, #d8b6ff, #8000ff) 1;
+    border-radius: 12px;
+   
 }
 
 .bordabile {
@@ -20,9 +23,11 @@ body {
 }
 
 hr {
-    background-color: black;
+    background-color: white
     height: 3px;
     margin-bottom: 20px;
+    border-image: linear-gradient(45deg, #fefefe, #d8b6ff, #8000ff) 1;
+    border-radius: 12px;
 }
 
 h2 {

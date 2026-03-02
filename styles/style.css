@@ -18,6 +18,11 @@ body {
     margin-bottom: 30px;
 }
 
+hr {
+    background-color: black;
+    height: 3px;
+}
+
 
 
  

@@ -15,11 +15,36 @@ body {
 }
 
 .bordabile {
-    border: 2px solid black;
-    padding: 15px;
+    position: relative;
     width: 300px;
     margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: white;
+    z-index: 0;
+}
+.bordabile {
+    position: relative;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    background: white;
+    border: 2px solid black; 
+}
+
+.bordabile::before {
+    content: "";
+    position: absolute;
+    inset: 4px;
     border-radius: 8px;
+    padding: 3px; 
+    background: linear-gradient(45deg, #fefefe, #d8b6ff, #8000ff);
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
 }
 
 .prima {

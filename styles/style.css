@@ -24,6 +24,15 @@ hr {
     height: 3px;
 }
 
+h2 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+
 
 
 

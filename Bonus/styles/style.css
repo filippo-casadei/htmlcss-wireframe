@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 512px;
+    border: 2px dashed black;
+    margin: 0 auto;
+}
+
+.bordabile {
+    border: 2px solid black;
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+hr {
+    background-color: black;
+    height: 3px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+p {
+    margin-top: 0;
+}
+
+h1 {
+    margin: 0;
+    margin-left: 80px;
+}
+
+
+
+
+
+ 
